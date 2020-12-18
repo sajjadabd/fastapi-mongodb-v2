@@ -1,0 +1,41 @@
+GET http://localhost:8000/student
+
+###
+
+POST http://localhost:8000/student
+Content-Type: 'application/json'
+
+{
+  "fullname" : "John Doe",
+  "email" : "jdoe@gmail.com",
+  "course_of_study" : "Water resources engineering",
+  "year" : 2,
+  "gpa" : "3.0"
+}
+
+
+###
+
+POST http://localhost:8000/student
+Content-Type: 'application/json'
+
+{
+  "fullname": "Sajjad Abdollahi",
+  "email": "sajjad@gmail.com",
+  "course_of_study": "Software Engineering",
+  "year": 3,
+  "gpa": "4.0"
+}
+
+###
+
+POST http://localhost:8000/student
+Content-Type: 'application/json'
+
+{
+  "fullname": "Armando Perez",
+  "email": "pitbull@gmail.com",
+  "course_of_study": "Music Production",
+  "year": 2,
+  "gpa": "1.0"
+}
